@@ -8,11 +8,16 @@ public class MahasiswaMain24 {
     
         mhs1.tampilkanInformasi();
         mhs1.ubahkelas("SI 2K");
-        mhs1.updateIpk(3.60);
+        mhs1.updateIpk(4.05);
         mhs1.tampilkanInformasi();
+        mhs1.nilaiKinerja();
 
         Mahasiswa24 mhs2 = new Mahasiswa24("Annisa Nabila", "2141720160", 3.25, "TI 2L");
         mhs2.updateIpk(3.30);
         mhs2.tampilkanInformasi();
+
+        
+        Mahasiswa24 mhs3 = new Mahasiswa24("Zaskia Maulidina", "244107060056", 3.89, "SIB 1A");
+        mhs3.tampilkanInformasi();
     }
 }
